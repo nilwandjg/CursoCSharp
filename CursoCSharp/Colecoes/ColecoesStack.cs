@@ -22,14 +22,14 @@ namespace CursoCSharp.Colecoes
                 Console.WriteLine($"{item} ");
             }
 
-            Console.WriteLine($"znPop: {pilha.Pop()}");
+            Console.WriteLine($"\nPop: {pilha.Pop()}");
 
             foreach (var item in pilha)
             {
                 Console.WriteLine($"{item} ");
             }
 
-            Console.WriteLine($"znPeek: {pilha.Peek()}");
+            Console.WriteLine($"\nPeek: {pilha.Peek()}");
             Console.WriteLine(pilha.Count);
         }
     }
